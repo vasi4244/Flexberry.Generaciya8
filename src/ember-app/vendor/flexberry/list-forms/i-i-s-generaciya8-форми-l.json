@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya8-форми-e",
+  "editForm": "i-i-s-generaciya8-форми-e",
+  "external": false,
+  "caption": "Форми",
+  "name": "IISGeneraciya8формиL",
+  "className": "формиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya8-форми",
+      "modelProjection": "формиL"
+    }
+  ]
+}

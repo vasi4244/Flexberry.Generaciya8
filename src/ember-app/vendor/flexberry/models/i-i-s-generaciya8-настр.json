@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISGeneraciya8настр",
+  "modelName": "i-i-s-generaciya8-настр",
+  "className": "настр",
+  "nameSpace": "IIS.Generaciya8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "опр",
+      "relatedTo": "i-i-s-generaciya8-опр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "содер",
+      "relatedTo": "i-i-s-generaciya8-содер",
+      "inverse": "настр"
+    }
+  ],
+  "projections": [
+    {
+      "name": "настрE",
+      "modelName": "i-i-s-generaciya8-настр",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "имя",
+          "lookupValueField": "имя",
+          "relationName": "опр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Опр",
+          "name": "опр",
+          "relatedTo": "i-i-s-generaciya8-опр",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "содерE",
+          "caption": "Содер",
+          "name": "содер",
+          "relatedTo": "i-i-s-generaciya8-содер",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "настрL",
+      "modelName": "i-i-s-generaciya8-настр",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "опр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя",
+          "name": "опр",
+          "relatedTo": "i-i-s-generaciya8-опр",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

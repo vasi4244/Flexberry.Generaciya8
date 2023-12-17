@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya8-настр-e",
+  "editForm": "i-i-s-generaciya8-настр-e",
+  "external": false,
+  "caption": "Настр",
+  "name": "IISGeneraciya8настрL",
+  "className": "настрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya8-настр",
+      "modelProjection": "настрL"
+    }
+  ]
+}

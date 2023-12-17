@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISGeneraciya8сп",
+  "modelName": "i-i-s-generaciya8-сп",
+  "className": "сп",
+  "nameSpace": "IIS.Generaciya8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотр",
+      "relatedTo": "i-i-s-generaciya8-сотр",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "форми",
+      "relatedTo": "i-i-s-generaciya8-форми",
+      "inverse": "сп"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "спE",
+      "modelName": "i-i-s-generaciya8-сп",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "имя",
+          "lookupValueField": "имя",
+          "relationName": "Сотр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Сотр",
+          "name": "сотр",
+          "relatedTo": "i-i-s-generaciya8-сотр",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

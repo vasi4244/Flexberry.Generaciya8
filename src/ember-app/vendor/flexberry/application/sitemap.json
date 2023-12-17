@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Generaciya8",
+  "applicationTitle": "Generaciya8",
+  "items": [
+    {
+      "link": null,
+      "menuName": "generaciya8",
+      "caption": "Generaciya8",
+      "title": "Generaciya8",
+      "children": [
+        {
+          "link": "i-i-s-generaciya8-форми-l",
+          "menuName": null,
+          "caption": "Форми",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya8-настр-l",
+          "menuName": null,
+          "caption": "Настр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya8-опр-l",
+          "menuName": null,
+          "caption": "Опр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya8-сотр-l",
+          "menuName": null,
+          "caption": "Сотр",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

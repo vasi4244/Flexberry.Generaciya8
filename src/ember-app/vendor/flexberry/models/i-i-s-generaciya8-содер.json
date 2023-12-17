@@ -1,0 +1,93 @@
+﻿{
+  "name": "IISGeneraciya8содер",
+  "modelName": "i-i-s-generaciya8-содер",
+  "className": "содер",
+  "nameSpace": "IIS.Generaciya8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "во1",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "во2",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "во3",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "воп",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настр",
+      "relatedTo": "i-i-s-generaciya8-настр",
+      "inverse": "содер"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "содерE",
+      "modelName": "i-i-s-generaciya8-содер",
+      "attrs": [
+        {
+          "name": "воп",
+          "caption": "Воп",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "во1",
+          "caption": "Во1",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "во2",
+          "caption": "Во2",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "во3",
+          "caption": "Во3",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

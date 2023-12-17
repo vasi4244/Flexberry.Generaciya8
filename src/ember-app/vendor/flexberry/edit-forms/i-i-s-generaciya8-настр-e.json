@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "опр",
+      "projection": "опрL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Настр",
+  "name": "IISGeneraciya8настрE",
+  "className": "настрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya8-настр",
+      "modelProjection": "настрE"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+docker-compose -p generaciya8-java down

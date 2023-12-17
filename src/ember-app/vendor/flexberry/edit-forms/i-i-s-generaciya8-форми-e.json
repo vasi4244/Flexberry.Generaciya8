@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "опр",
+      "projection": "опрL",
+      "detailModelName": null
+    },
+    {
+      "master": "сотр",
+      "displayAttributeName": "имя",
+      "required": true,
+      "relationName": "сп.Сотр",
+      "projection": "СотрL",
+      "detailModelName": "i-i-s-generaciya8-сп"
+    }
+  ],
+  "external": false,
+  "caption": "Форми",
+  "name": "IISGeneraciya8формиE",
+  "className": "формиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya8-форми",
+      "modelProjection": "формиE"
+    }
+  ]
+}

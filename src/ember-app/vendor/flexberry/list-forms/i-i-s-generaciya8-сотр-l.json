@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya8-сотр-e",
+  "editForm": "i-i-s-generaciya8-сотр-e",
+  "external": false,
+  "caption": "Сотр",
+  "name": "IISGeneraciya8СотрL",
+  "className": "СотрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya8-сотр",
+      "modelProjection": "СотрL"
+    }
+  ]
+}

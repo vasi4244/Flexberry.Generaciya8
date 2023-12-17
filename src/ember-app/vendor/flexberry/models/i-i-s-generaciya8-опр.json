@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISGeneraciya8опр",
+  "modelName": "i-i-s-generaciya8-опр",
+  "className": "опр",
+  "nameSpace": "IIS.Generaciya8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "опрE",
+      "modelName": "i-i-s-generaciya8-опр",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "опрL",
+      "modelName": "i-i-s-generaciya8-опр",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

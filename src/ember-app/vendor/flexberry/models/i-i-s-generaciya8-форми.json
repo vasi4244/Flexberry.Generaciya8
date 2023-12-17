@@ -1,0 +1,120 @@
+﻿{
+  "name": "IISGeneraciya8форми",
+  "modelName": "i-i-s-generaciya8-форми",
+  "className": "форми",
+  "nameSpace": "IIS.Generaciya8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "код",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "опр",
+      "relatedTo": "i-i-s-generaciya8-опр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "сп",
+      "relatedTo": "i-i-s-generaciya8-сп",
+      "inverse": "форми"
+    }
+  ],
+  "projections": [
+    {
+      "name": "формиE",
+      "modelName": "i-i-s-generaciya8-форми",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "имя",
+          "lookupValueField": "имя",
+          "relationName": "опр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Опр",
+          "name": "опр",
+          "relatedTo": "i-i-s-generaciya8-опр",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "спE",
+          "caption": "Сп",
+          "name": "сп",
+          "relatedTo": "i-i-s-generaciya8-сп",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "формиL",
+      "modelName": "i-i-s-generaciya8-форми",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "опр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя",
+          "name": "опр",
+          "relatedTo": "i-i-s-generaciya8-опр",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

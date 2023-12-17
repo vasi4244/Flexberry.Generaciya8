@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Опр",
+  "name": "IISGeneraciya8опрE",
+  "className": "опрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya8-опр",
+      "modelProjection": "опрE"
+    }
+  ]
+}
